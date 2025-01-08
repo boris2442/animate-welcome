@@ -1,0 +1,57 @@
+*, ::after, ::before{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+.accueil{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/m-7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accueil h1{
+    font-size: 120px;
+    margin-bottom: 450px;
+}
+.loader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lettre{
+    color:#484848;
+    font-size: 80px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: animate 1.5s linear infinite ;
+
+}
+
+@keyframes animate{
+    0%{
+        color:#fff900;
+        text-shadow: 0 0 7px #fff900;
+    }
+    90%{
+        color:#484848;
+        text-shadow: none;
+    }
+    100%{
+        color:#fff900;
+        text-shadow: 0 0 7px #fff900;  
+    }
+}
