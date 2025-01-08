@@ -20,8 +20,8 @@ body{
 }
 
 .accueil h1{
-    font-size: 120px;
-    margin-bottom: 450px;
+    font-size: 4rem;
+    margin-bottom: 50px;
 }
 .loader{
     position: absolute;
@@ -54,4 +54,40 @@ body{
         color:#fff900;
         text-shadow: 0 0 7px #fff900;  
     }
+}
+.lettre:nth-child(1){
+    animation-delay:0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay:0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay:0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay:0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay:0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay:0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay:0.7s;
+}
+.lettre:nth-child(8){
+    animation-delay:0.8s;
+}
+.lettre:nth-child(9){
+    animation-delay:0.9s;
+}
+.lettre:nth-child(10){
+    animation-delay:1s;
+}
+
+
+.loading-end{
+    opacity: 0;
+    transition: opacity ease-out;
 }
